@@ -1,5 +1,6 @@
 require "nepali_ruby/version"
-
-module NepaliRuby
-  # Your code goes here...
+Dir[File.dirname(__FILE__) + '/nepali_ruby/alaises/*.rb'].each do |file|
+  require file
 end
+
+	
